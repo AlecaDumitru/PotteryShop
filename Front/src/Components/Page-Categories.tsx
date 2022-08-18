@@ -37,7 +37,7 @@ const Categories = () => {
             {allProducts.map((product) => (
                 <div key={product.id} className="element">
                 <ListItem  />
-                    <h1>{product.id}</h1>
+                    
                 <ProductCard productId = {product.id} getProduct={getProduct} pictureUrl = {product.image} productName = {product.name}
                 price = {product.price} currency = {product.currency} description = {product.description}/>
                 </div>

@@ -14,8 +14,12 @@ const ProductCard=(props:any)=>{
                 />
                 <CardContent>
                     <Typography gutterBottom variant="h5" component="div">
-                        {props.name} {props.price} {props.currency}
-                    </Typography>
+                        {props.productName} 
+                          </Typography>
+                            <Typography>
+                        {props.price} {props.currency}
+                          </Typography>
+                  
                     <Typography variant="body2" color="text.secondary">
                         {props.description}
                     </Typography>
