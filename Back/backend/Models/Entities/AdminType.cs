@@ -13,7 +13,7 @@ namespace backend.Models.Entities
         [Required]
 
         [Column("Role", TypeName = "nvarchar")]
-        public List<string> Type { get; set; }
+        public string Type { get; set; }
 
         [Required]
         public string? Permissions { get; set; } 

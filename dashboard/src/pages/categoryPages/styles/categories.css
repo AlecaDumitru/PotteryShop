@@ -1,0 +1,42 @@
+.categoryList{
+    flex: 4;
+}
+.categoryList {
+    display: flex;
+    align-items: center;
+}
+.categoryTitleContainer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.categoryAddButton{
+    width: 80px;
+    border: none;
+    padding: 5px;
+    background-color: teal;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+    font-size: 16px;
+}
+.categoryListImg{
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 10px;
+}
+.categoryListEdit{
+    border: none;
+    border-radius: 10px;
+    padding: 5px 10px;
+    background-color: #3bb077;
+    color: white;
+    cursor: pointer;
+    margin-right: 20px;
+}
+.categoryListDelete{
+    color: red;
+    cursor: pointer;
+}

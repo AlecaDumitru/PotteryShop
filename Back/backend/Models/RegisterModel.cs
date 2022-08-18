@@ -4,12 +4,6 @@ namespace backend.Models
 {
     public class RegisterModel
     {
-        public RegisterModel(string? email, string? username, string? password)
-        {
-            Email = email;
-            Username = username;
-            Password = password;
-        }
 
         [Required(ErrorMessage = "User Name is required")]
         public string? Username { get; set; }
@@ -19,6 +13,11 @@ namespace backend.Models
         public string? Email { get; set; }
 
         [Required(ErrorMessage = "Password is required")]
+        [MinLength(6)]
         public string? Password { get; set; }
+
+        [Required(ErrorMessage = "Password is required")]
+        [Compare("Password")]
+        public string? ConfirmPassword { get; set; }
     }
 }

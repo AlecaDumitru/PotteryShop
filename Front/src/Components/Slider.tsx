@@ -1,7 +1,6 @@
 import AwesomeSlider from 'react-awesome-slider';
 import 'react-awesome-slider/dist/styles.css';
-import './Slider.css'
-import img from "/public/images/1.jpg"
+import './styles/Slider.css'
 
 const Slider = () =>(
     <AwesomeSlider className="slider">

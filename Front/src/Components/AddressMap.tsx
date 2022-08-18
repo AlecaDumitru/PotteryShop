@@ -1,6 +1,6 @@
 import {useMemo} from 'react';
 import React from 'react'
-import './AddressMap.css';
+import './styles/AddressMap.css';
 
 // function AddressMap() {
 //     const center = useMemo(() => ({lat: 44.46996, lng: 26.08847}), []);

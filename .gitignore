@@ -3,6 +3,8 @@
 # dependencies
 front/node_modules/
 Front/node_modules/
+dashboard/node_modules/
+dashboard/.idea/
 node_modules/
 /.pnp
 .pnp.js
