@@ -2,7 +2,7 @@
 
 A complex e-commerce app that includes a presentation site and a dashboard panel.
 
-This project has completed two out of 6 sprints. (4 days per sprint).
+Our project is still in development and currently we just finished the 2nd sprint (each sprint has 4 days).
 
 The backend is written in C# using ASP.NET Core MVC, Entity Framework, Microsoft SQL Server, ASP.NET Core Identity.
 
