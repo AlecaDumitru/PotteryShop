@@ -4,7 +4,15 @@ A complex e-commerce app that includes a presentation site and a dashboard panel
 
 Our project is still in development and currently we just finished the 2nd sprint (each sprint has 4 days).
 
-The backend is written in C# using ASP.NET Core MVC, Entity Framework, Microsoft SQL Server, ASP.NET Core Identity.
+Team members:
+- Alexandra Dumitru
+- Ioana Serban 
+
+The backend is written in C# using:
+- ASP.NET Core MVC
+- Entity Framework
+- Microsoft SQL Server
+- ASP.NET Core Identity.
 
 ![C#](https://user-images.githubusercontent.com/89579316/185113100-f71d180a-1f64-449c-be0e-e7a5b2d406e5.jpg)
 ![VS](https://user-images.githubusercontent.com/89579316/185113105-c6b9943b-79ec-45bd-b1c5-1f7ab0d37d22.jpg)
@@ -14,14 +22,14 @@ The backend is written in C# using ASP.NET Core MVC, Entity Framework, Microsoft
 This application is a web app that uses attribute and conventional routing to provide informations from the database regarding products, 
 categories and users.
 
-And for the frontend we used React, Typescript, Material UI, CSS.
+And for the frontend we used: 
+- React
+- Typescript
+- Material UI
+- CSS
 
 ![185109098-0b3fdc6a-cb96-4153-8c79-b0f44a243249](https://user-images.githubusercontent.com/86601701/185206745-26e11146-ab2c-430a-ad62-36f228fda19e.jpg)
 <img width="120" alt="typescript" src="https://user-images.githubusercontent.com/86601701/185207961-360648a0-999d-4be6-8367-e11e44688e48.png">
-
-Team members:
-Ioana Serban 
-Alexandra Dumitru
 
 
 ![Screenshot 2022-08-17 195626](https://user-images.githubusercontent.com/89388372/185232491-aacb7f2c-770f-4c60-9dfe-903ea13207cc.png)
